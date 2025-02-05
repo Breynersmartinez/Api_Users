@@ -32,7 +32,7 @@ public class ConectionDB {
                     .build();
 
             FirebaseApp.initializeApp(options);
-
+System.out.println(" Conexion realizada ");
 
         } catch (Exception e) {
             e.printStackTrace();
