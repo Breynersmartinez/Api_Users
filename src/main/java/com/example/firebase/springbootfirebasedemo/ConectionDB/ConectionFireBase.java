@@ -1,4 +1,4 @@
-package com.example.firebase.springbootfirebasedemo.firebae;
+package com.example.firebase.springbootfirebasedemo.ConectionDB;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
@@ -7,10 +7,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 @Service
-public class FirebaseInitialization {
+public class ConectionFireBase {
 
 
     @PostConstruct
